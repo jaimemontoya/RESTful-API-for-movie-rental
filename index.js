@@ -3,7 +3,7 @@ import express from 'express';
 // Create an Express application.
 const app = express();
 // Define port number for the server.
-const PORT = 406;
+const PORT = 4000;
 // When visitors make a GET request to address "/", specify the response.
 app.get('/', (req, res) =>
     res.send(`Node and Express server running on port ${PORT}`)
